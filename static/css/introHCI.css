@@ -16,6 +16,28 @@ body {
      padding: 20px;
 }
 
+.project {
+    margin-left: 20px;
+    background-color: #deebf7;
+    padding: 20px;
+    width: 525px;
+}
+
+/* this makes everything small caps */
+p{
+     font-variant: small-caps;
+}
+
+/* this makes all project names small caps */
+.project p {
+    font-variant: small-caps;
+}
+
+/* this makes a specific project name small caps */
+#project1 {
+    font-variant: small-caps;
+}
+
 .jumbotron {
 	position: relative;
 	background: none;
